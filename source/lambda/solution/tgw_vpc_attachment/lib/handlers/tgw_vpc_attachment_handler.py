@@ -12,7 +12,7 @@ from time import sleep
 from typing import Tuple, List
 
 from aws_lambda_powertools import Logger
-from mypy_boto3_ec2.literals import TransitGatewayAttachmentStateType, TransitGatewayAssociationStateType
+from mypy_boto3_ec2.literals import TransitGatewayAttachmentStateType
 from mypy_boto3_ec2.type_defs import TransitGatewayRouteTableTypeDef
 
 from solution.tgw_vpc_attachment.lib.clients.ec2 import EC2

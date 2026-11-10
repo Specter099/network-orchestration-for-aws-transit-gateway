@@ -10,7 +10,6 @@ from aws_lambda_powertools import Logger
 
 from solution.tgw_vpc_attachment.lib.clients.cloud_watch_logs import CloudWatchLogs
 from solution.tgw_vpc_attachment.lib.clients.sns import SNS
-from solution.tgw_vpc_attachment.lib.utils.metrics import Metrics
 
 EXECUTING = "Executing: "
 
