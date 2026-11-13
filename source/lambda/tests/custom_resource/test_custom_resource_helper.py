@@ -4,7 +4,7 @@
 import os
 from copy import deepcopy
 from os import environ
-from unittest.mock import Mock, patch
+from unittest.mock import Mock
 from datetime import datetime, timezone
 
 import pytest

@@ -4,7 +4,7 @@
 """Unit tests for metrics collector main Lambda handler"""
 
 import pytest
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import Mock, patch
 
 from solution.metrics_collector.main import lambda_handler
 

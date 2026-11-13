@@ -9,7 +9,6 @@ from os import environ
 from aws_lambda_powertools import Logger
 
 from solution.tgw_vpc_attachment.lib.clients.dynamodb import DDB
-from solution.tgw_vpc_attachment.lib.handlers.general_functions_handler import GeneralFunctions
 from solution.tgw_vpc_attachment.lib.utils.helper import current_time
 
 EXECUTING = "Executing: "
